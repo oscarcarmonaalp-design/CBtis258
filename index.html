@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#12372f">
-  <meta name="description" content="CBTis 258 de General Escobedo, Nuevo León. Carreras técnicas, plataformas escolares, servicios y contacto.">
+  <meta name="theme-color" content="#621934">
+  <meta name="description" content="Portal informativo del CBTis 258: oferta educativa, admisiones, comunidad escolar, servicios de apoyo y contacto.">
   <title>CBTis 258</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,6 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
   <div class="mini-barra">
     <div class="contenedor">
       <span><i class="fa-solid fa-building-columns"></i> Educación Media Superior · DGETI · SEP</span>
@@ -22,7 +21,7 @@
   </div>
   <header class="header">
     <img src="cbtis258.png" width="67" height="67" style="float: left;">
-    <img src="logo_dgeti.png" width="67" height="67" style="float: left;">
+    <img src="dgeti.png" width="67" height="67" style="float: left;">
     <div class="contenedor nav-wrap">
       <a href="#inicio" class="marca" aria-label="CBTis 258 inicio">
         <span class="logo">
@@ -41,10 +40,9 @@
   <div class="menu-imagenes">
   </div>
   <div class="menu-enlaces">
-    <a href="https://www.edumediamanager.com/aspirante/preregistro/formulario/CBTis%20258">Pre Registro</a>
-    <a href="#plantel">Plantel</a>
-    <a href="#carreras">Carreras técnicas</a>
-    <a href="#alumnos">Alumnos</a>
+    <a href="#bienvenida">Bienvenida</a>
+    <a href="#carreras">Oferta educativa</a>
+    <a href="#accesos-directos">Accesos directos</a>
     <a href="#contacto" class="cta">
       Contacto <i class="fa-solid fa-arrow-right"></i>
     </a>
@@ -53,48 +51,33 @@
     </div>
   </header>
   <main>
-    <section class="hero" id="inicio">
-      <div class="contenedor hero-grid">
-        <div>
-          <p class="eyebrow claro">Centro de Bachillerato Tecnológico Industrial y de Servicios</p>
-          <h1>Aprende hoy.<br><em>Construye tu futuro.</em></h1>
-          <p class="hero-lead">
-            En CBTis 258 cursas tu bachillerato y desarrollas habilidades técnicas
-            que te ayudan a continuar tus estudios o prepararte para el mundo laboral.
-          </p>
-          <div class="acciones">
-            <a class="boton boton-dorado" href="#carreras">
-              Explorar carreras <i class="fa-solid fa-arrow-down"></i>
-            </a>
-            <a class="boton boton-fantasma" href="https://www.facebook.com/CBTIS258NL/" target="_blank" rel="noopener noreferrer">
-              <i class="fa-brands fa-facebook-f"></i> Avisos del plantel
-            </a>
-          </div>
-          <div class="datos-rapidos">
-            <div class="dato">
-              <i class="fa-solid fa-graduation-cap"></i>
-              <span><strong>Bachillerato</strong><small>y carrera técnica</small></span>
-            </div>
-            <div class="dato">
-              <i class="fa-solid fa-location-dot"></i>
-              <span><strong>General Escobedo</strong><small>Nuevo León, México</small></span>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="foto-marco">
-            <img
-              src="https://caed.sep.gob.mx/storage/recursos/2025/10/uoGdBKfsLv-CBTIS%20258.png"
-              alt="Entrada del CBTis 258 en General Escobedo">
-            <div class="foto-etiqueta">
-              <i class="fa-solid fa-circle"></i> CBTis 258 · Nuevo León
-            </div>
-          </div>
-          <div class="sello"><i class="fa-solid fa-star"></i> Un motivo de orgullo</div>
+    <section class="banner-institucional" id="inicio" aria-label="Banner institucional CBTis 258">
+      <div class="banner-foto banner-foto-principal">
+        <img src="https://caed.sep.gob.mx/storage/recursos/2025/10/uoGdBKfsLv-CBTIS%20258.png" alt="Instalaciones del CBTis 258 en General Escobedo" fetchpriority="high">
+      </div>
+      <div class="banner-mensaje">
+        <p class="eyebrow claro">DGETI · Educación Media Superior</p>
+        <h1>CBTis 258<br><em>Construye tu futuro.</em></h1>
+        <p>Aprende, desarrolla tus habilidades y prepárate para continuar tus estudios o incorporarte al mundo laboral con una formación técnica.</p>
+        <div class="acciones">
+          <a class="boton boton-dorado" href="#carreras">Oferta educativa <i class="fa-solid fa-arrow-right"></i></a>
+          <a class="boton boton-fantasma" href="#accesos-directos">Accesos directos <i class="fa-solid fa-arrow-down"></i></a>
         </div>
       </div>
+      <div class="banner-foto banner-foto-secundaria">
+        <img src="https://caed.sep.gob.mx/storage/recursos/2025/10/uoGdBKfsLv-CBTIS%20258.png" alt="Vista del plantel CBTis 258" loading="lazy">
+      </div>
     </section>
-    <!-- INFORMACIÓN DEL PLANTEL -->
+    <section class="seccion bienvenida" id="bienvenida">
+      <div class="contenedor bienvenida-contenido">
+        <div class="bienvenida-icono" aria-hidden="true"><i class="fa-solid fa-handshake-angle"></i></div>
+        <div>
+          <p class="eyebrow">Mensaje de bienvenida</p>
+          <h2>¡Bienvenidas y bienvenidos al CBTis 258!</h2>
+          <p>Nos alegra recibir a nuestra comunidad estudiantil, aspirantes y familias. En este espacio encontrarás información sobre la oferta educativa, los procesos de admisión, las actividades escolares y los servicios de apoyo. Te invitamos a participar en la vida escolar y a consultar los canales oficiales para confirmar fechas y requisitos vigentes.</p>
+        </div>
+      </div>
+    </section
     <section class="seccion intro" id="plantel">
       <div class="contenedor intro-grid">
         <div>
@@ -135,16 +118,10 @@
               <span class="numero">01</span>
               <h3>Contabilidad</h3>
               <p>Registro y organización de información financiera, costos y apoyo administrativo.</p>
-              <nav class="menu" id="menu">
-              <div class="menu-imagenes">
-              </div>
-                  <div class="menu-enlaces">
-                      <a href="https://cosac.sems.gob.mx/Programas_presenciales/2024/CONTABILIDAD1.pdf" class="cta">
-                      Plan de estudios <i class="fa-solid fa-arrow-right"></i>
-                      </a>
-                  </div>
-              </nav>
             </div>
+              <button class="boton-modulos" type="button" data-materia="Contabilidad" aria-haspopup="dialog">
+                Ver módulos <i class="fa-solid fa-arrow-right"></i>
+              </button>
           </article>
           <article class="tarjeta">
             <img loading="lazy" src="programacion.jpg" alt="Programación">
@@ -152,15 +129,10 @@
               <span class="numero">02</span>
               <h3>Programación</h3>
               <p>Desarrollo de software, solución de problemas con código y construcción de aplicaciones.</p>
-              <nav class="menu" id="menu">
-              <div class="menu-imagenes">
-              </div>
-                  <div class="menu-enlaces">
-                      <a href="https://cosac.sems.gob.mx/Programas_presenciales/2023/PROGRAMA%20DE%20ESTUDIOS%20PROGRAMACION.pdf" class="cta">
-                      Plan de estudios <i class="fa-solid fa-arrow-right"></i>
-                      </a>
-                  </div>
             </div>
+              <button class="boton-modulos" type="button" data-materia="Programación" aria-haspopup="dialog">
+                Ver módulos <i class="fa-solid fa-arrow-right"></i>
+              </button>
           </article>
           <article class="tarjeta">
             <img loading="lazy" src="mecanica.jpg" alt="Mecánica industrial">
@@ -168,14 +140,10 @@
               <span class="numero">04</span>
               <h3>Mecánica</h3>
               <p>Maquinaria, procesos industriales, mantenimiento y seguridad en el trabajo.</p>
-              <nav class="menu" id="menu">
-              <div class="menu-imagenes">
-              </div>
-                  <div class="menu-enlaces">
-                    <a href="https://cosac.sems.gob.mx/Docentes/Programas_de_estudio_del_Bachillerato_Tecnologico_Formacion_Profesional/Programas_de_estudio_de_ED_2022/DGETI/Mec%C3%A1nica_industrial.pdf" class="cta">
-                    Plan de estudios <i class="fa-solid fa-arrow-right"></i>
-                    </a>
             </div>
+              <button class="boton-modulos" type="button" data-materia="Mecánica" aria-haspopup="dialog">
+                Ver módulos <i class="fa-solid fa-arrow-right"></i>
+              </button>
           </article>
           <article class="tarjeta">
             <img loading="lazy" src="alimentos.jpg" alt="Preparación de alimentos y bebidas">
@@ -183,14 +151,10 @@
               <span class="numero">05</span>
               <h3>Preparación de alimentos y bebidas</h3>
               <p>Técnicas de preparación, higiene, presentación y servicio.</p>
-              <nav class="menu" id="menu">
-              <div class="menu-imagenes">
-              </div>
-                  <div class="menu-enlaces">
-                    <a href="https://cosac.sems.gob.mx/Programas_presenciales/2023/PROGRAMA_DE_ESTUDIOS_PREPARACION_DE_ALIMENTOS_Y_BEBIDAS.pdf" class="cta">
-                    Plan de estudios <i class="fa-solid fa-arrow-right"></i>
-                    </a> 
-              </div>
+            </div>
+              <button class="boton-modulos" type="button" data-materia="Preparación de alimentos y bebidas" aria-haspopup="dialog">
+                Ver módulos <i class="fa-solid fa-arrow-right"></i>
+              </button>
           </article>
           <article class="tarjeta">
             <img loading="lazy" src="hospedaje.jpg" alt="Servicios de hospedaje">
@@ -198,14 +162,10 @@
               <span class="numero">06</span>
               <h3>Servicios de hospedaje</h3>
               <p>Atención a huéspedes y operación de establecimientos de hospedaje.</p>
-              <nav class="menu" id="menu">
-              <div class="menu-imagenes">
-              </div>
-                  <div class="menu-enlaces">
-                    <a href="#contacto" class="cta">
-                    Plan de estudios <i class="fa-solid fa-arrow-right"></i>
-                    </a>
             </div>
+              <button class="boton-modulos" type="button" data-materia="Servicios de hospedaje" aria-haspopup="dialog">
+                Ver módulos <i class="fa-solid fa-arrow-right"></i>
+              </button>
           </article>
           <article class="tarjeta">
             <img loading="lazy" src="logis.jpg" alt="Logística">
@@ -213,14 +173,10 @@
               <span class="numero">07 · PAE 2026</span>
               <h3>Logística</h3>
               <p>Organización de productos, inventarios, almacenamiento y distribución.</p>
-              <nav class="menu" id="menu">
-              <div class="menu-imagenes">
-              </div>
-                  <div class="menu-enlaces">
-                    <a href="#contacto" class="cta">
-                    Plan de estudios <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-              </div>
+            </div>
+              <button class="boton-modulos" type="button" data-materia="Logística" aria-haspopup="dialog">
+                Ver módulos <i class="fa-solid fa-arrow-right"></i>
+              </button>
           </article>
           <article class="tarjeta">
             <img loading="lazy" src="ia.jpg" alt="Inteligencia Artificial">
@@ -229,30 +185,10 @@
               <h3>Inteligencia Artificial</h3>
               <p>Aplicaciones de tecnologías inteligentes y herramientas computacionales.</p>
               <small>Reportada en directorio PAE 2026.</small>
-              <nav class="menu" id="menu">
-              <div class="menu-imagenes">
-              </div>
-                  <div class="menu-enlaces">
-                      <a href="#contacto" class="cta">
-                      Plan de estudios <i class="fa-solid fa-arrow-right"></i>
-                      </a> 
-              </div>
-          </article>
-          <article class="tarjeta">
-            <img loading="lazy" src="ciberse.jpg" alt="Ciberseguridad">
-            <div class="tarjeta-cuerpo">
-              <span class="numero">02</span>
-              <h3>Ciberseguridad</h3>
-              <p>Desarrollo de software, solución de problemas con código y construcción de aplicaciones.</p>
-              <nav class="menu" id="menu">
-              <div class="menu-imagenes">
-              </div>
-                  <div class="menu-enlaces">
-                      <a href="#contacto" class="cta">
-                      Plan de estudios <i class="fa-solid fa-arrow-right"></i>
-                      </a>
-                  </div>
             </div>
+              <button class="boton-modulos" type="button" data-materia="Inteligencia Artificial" aria-haspopup="dialog">
+                Ver módulos <i class="fa-solid fa-arrow-right"></i>
+              </button>
           </article>
         </div>
         <p class="nota">
@@ -262,7 +198,7 @@
         </p>
       </div>
     </section>
-<section class="seccion plataformas" id="videos">
+<section class="seccion plataformas" id="videos"><span id="comunidad" class="ancla-seccion" aria-hidden="true"></span>
   <div class="contenedor">
     <div class="encabezado">
       <div>
@@ -274,17 +210,11 @@
         También hay un video de CBTIS 258.
       </p>
     </div>
-
     <div class="videos-grid">
-
       <article class="video-card">
         <h3>01. Programación</h3>
-        <video controls preload="metadata" playsinline>
-          <source src="video1.mp4" type="video/mp4">
-          Tu navegador no puede reproducir este video.
-        </video>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/NlOQ-Rk4iD8" title="Reproductor de video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreenstyle="border-radius: 8px;"></iframe>
       </article>
-
       <article class="video-card">
         <h3>02. IA</h3>
         <video controls preload="metadata" playsinline>
@@ -292,7 +222,6 @@
           Tu navegador no puede reproducir este video.
         </video>
       </article>
-
       <article class="video-card">
         <h3>03. Ciberseguridad</h3>
         <video controls preload="metadata" playsinline>
@@ -300,7 +229,6 @@
           Tu navegador no puede reproducir este video.
         </video>
       </article>
-
       <article class="video-card">
         <h3>04. Alimentos</h3>
         <video controls preload="metadata" playsinline>
@@ -308,7 +236,6 @@
           Tu navegador no puede reproducir este video.
         </video>
       </article>
-
       <article class="video-card">
         <h3>05. Hospedaje</h3>
         <video controls preload="metadata" playsinline>
@@ -316,7 +243,6 @@
           Tu navegador no puede reproducir este video.
         </video>
       </article>
-
       <article class="video-card">
         <h3>06. Contabilidad</h3>
         <video controls preload="metadata" playsinline>
@@ -324,7 +250,6 @@
           Tu navegador no puede reproducir este video.
         </video>
       </article>
-
       <article class="video-card">
         <h3>07. Logística</h3>
         <video controls preload="metadata" playsinline>
@@ -332,7 +257,6 @@
           Tu navegador no puede reproducir este video.
         </video>
       </article>
-
       <article class="video-card">
         <h3>08. Mecánica</h3>
         <video controls preload="metadata" playsinline>
@@ -341,7 +265,6 @@
           <h3> en este apartado puedes ver videos de entrevistas de alumnos y un video del CBTIS 258.</h3>
         </video>
       </article>
-
       <article class="video-card">
         <h3>09. CBTIS 258</h3>
         <video controls preload="metadata" playsinline>
@@ -349,10 +272,94 @@
           Tu navegador no puede reproducir este video.
         </video>
       </article>
-
     </div>
   </div>
 </section>
+    <section class="seccion accesos" id="accesos-directos">
+      <div class="contenedor">
+        <div class="encabezado">
+          <div><p class="eyebrow">Encuentra lo que necesitas</p><h2>Accesos directos</h2></div>
+          <p>Consulta las áreas de información del CBTis 258. Los trámites, fechas y convocatorias deben confirmarse con el plantel.</p>
+        </div>
+        <div class="accesos-categorias">
+          <section class="acceso-categoria" id="oferta-educativa">
+            <div class="acceso-categoria-titulo"><i class="fa-solid fa-graduation-cap"></i><h3>Oferta educativa</h3></div>
+            <a class="acceso" href="#carreras"><i class="fa-solid fa-book-open"></i><span><strong>Carreras y plan de estudios</strong><small>Explora las carreras técnicas y consulta sus módulos desde cada tarjeta.</small></span><i class="fa-solid fa-arrow-right"></i></a>
+          </section>
+          <section class="acceso-categoria" id="admisiones">
+            <div class="acceso-categoria-titulo"><i class="fa-solid fa-file-signature"></i><h3>Admisiones</h3></div>
+            <a class="acceso" href="https://www.facebook.com/CBTIS258NL/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-bullhorn"></i><span><strong>Convocatoria</strong><small>Consulta publicaciones y fechas anunciadas por el plantel.</small></span><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a class="acceso" href="https://dgeti.sems.gob.mx/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-clipboard-list"></i><span><strong>Proceso de inscripción</strong><small>Consulta información de educación tecnológica y busca los avisos de nuevo ingreso de la autoridad educativa.</small></span><i class="fa-solid fa-arrow-right"></i></a>
+            <a class="acceso" href="https://edmtics.com/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-laptop"></i><span><strong>Edumedia</strong><small>Acceso a la plataforma educativa.</small></span><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </section>
+          <section class="acceso-categoria" id="comunidad-escolar">
+            <div class="acceso-categoria-titulo"><i class="fa-solid fa-people-group"></i><h3>Comunidad escolar</h3></div>
+            <a class="acceso" href="#calendario"><i class="fa-solid fa-calendar-days"></i><span><strong>Calendario escolar 2026–2027</strong><small>Consulta la imagen del calendario y abre la fuente oficial de la SEP.</small></span><i class="fa-solid fa-arrow-right"></i></a>
+            <a class="acceso" href="#actividades-extraescolares"><i class="fa-solid fa-person-running"></i><span><strong>Extraescolares</strong><small>Actividades académicas, culturales y deportivas.</small></span><i class="fa-solid fa-arrow-right"></i></a>
+            <a class="acceso" href="#paec-info"><i class="fa-solid fa-seedling"></i><span><strong>PAEC</strong><small>Conoce el propósito del programa y consulta información del plantel.</small></span><i class="fa-solid fa-arrow-right"></i></a>
+            <a class="acceso" href="https://www.facebook.com/CBTIS258NL/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-bell"></i><span><strong>Avisos</strong><small>Novedades y comunicados del plantel.</small></span><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </section>
+          <section class="acceso-categoria" id="dual-vinculacion">
+            <div class="acceso-categoria-titulo"><i class="fa-solid fa-handshake"></i><h3>Dual, vinculación y prácticas</h3></div>
+            <a class="acceso" href="#dual-info"><i class="fa-solid fa-building-user"></i><span><strong>DUAL</strong><small>Información general sobre formación en colaboración con empresas.</small></span><i class="fa-solid fa-arrow-right"></i></a>
+            <a class="acceso" href="#servicio-social"><i class="fa-solid fa-hands-helping"></i><span><strong>Servicio social</strong><small>Requisitos, formatos y proceso de liberación.</small></span><i class="fa-solid fa-arrow-right"></i></a>
+            <a class="acceso" href="#servicio-profesional"><i class="fa-solid fa-briefcase"></i><span><strong>Prácticas</strong><small>Orientación para prácticas profesionales y vinculación.</small></span><i class="fa-solid fa-arrow-right"></i></a>
+          </section>
+          <section class="acceso-categoria" id="servicios-apoyo">
+            <div class="acceso-categoria-titulo"><i class="fa-solid fa-heart"></i><h3>Servicios de apoyo</h3></div>
+            <a class="acceso" href="https://www.gob.mx/becasbenitojuarez" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-award"></i><span><strong>Becas Benito Juárez</strong><small>Consulta información y comunicados oficiales sobre becas.</small></span><i class="fa-solid fa-arrow-right"></i></a>
+            <a class="acceso" href="#orientacion"><i class="fa-solid fa-comments"></i><span><strong>Orientación educativa y psicosocial</strong><small>Canaliza dudas académicas y solicita orientación al plantel.</small></span><i class="fa-solid fa-arrow-right"></i></a>
+          </section>
+
+        </div>
+        <span id="actividades-extraescolares" class="accesos-anclas"></span>
+        <div class="extraescolares-panel" id="extraescolares">
+          <h3><i class="fa-solid fa-star"></i> Actividades académicas, culturales y deportivas</h3>
+          <p>Las actividades complementan la formación técnica, fortalecen la convivencia y ayudan a desarrollar habilidades, creatividad, salud y trabajo en equipo. La oferta, los horarios y los cupos cambian por semestre; aquí se describen las áreas para que el alumnado sepa qué consultar.</p>
+          <div class="extraescolares-lista">
+            <a href="#actividades-academicas"><i class="fa-solid fa-book-open"></i> Académicas</a>
+            <a href="#actividades-culturales"><i class="fa-solid fa-masks-theater"></i> Culturales</a>
+            <a href="#actividades-deportivas"><i class="fa-solid fa-futbol"></i> Deportivas</a>
+          </div>
+        </div>
+        <span id="paec" class="accesos-anclas"></span><span id="dual" class="accesos-anclas"></span>
+        <span id="becas" class="accesos-anclas"></span><span id="orientacion" class="accesos-anclas"></span>
+      </div>
+    </section>
+    <section class="seccion calendario" id="calendario">
+      <div class="contenedor">
+        <div class="encabezado">
+          <div><p class="eyebrow">Ciclo escolar 2026–2027</p><h2>Calendario escolar</h2></div>
+          <p>Calendario compartido como referencia visual. La imagen corresponde a educación preescolar, primaria y secundaria; el calendario de educación media superior puede tener fechas distintas; verifica los avisos publicados por la DGETI o la autoridad educativa correspondiente.</p>
+        </div>
+        <div class="calendario-contenido">
+          <a class="calendario-imagen-link" href="calendario-2026-2027.jpg" target="_blank" rel="noopener noreferrer" aria-label="Abrir calendario escolar en tamaño completo">
+            <img src="calendario xd.png" alt="Calendario escolar 2026–2027 para educación preescolar, primaria y secundaria, 185 días" loading="lazy">
+          </a>
+          <div class="calendario-detalles">
+            <h3>Fechas y fuentes oficiales</h3>
+            <p>La SEP publica el calendario de educación básica con inicio de clases el 31 de agosto de 2026 y conclusión el 9 de julio de 2027. Este calendario no debe asumirse automáticamente como el calendario oficial del CBTis.</p>
+            <a class="boton boton-dorado" href="https://calendarioescolar.sep.gob.mx/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Ver calendario en la SEP</a>
+            <a class="enlace-secundario" href="https://educacionbasica.sep.gob.mx/publica-sep-calendario-escolar-2026-2027-para-educacion-basica-y-normal/" target="_blank" rel="noopener noreferrer">Leer comunicado oficial de la SEP</a>
+            <hr>
+            <h3>Otros accesos útiles</h3>
+            <ul>
+              <li><a href="https://dgeti.sems.gob.mx/" target="_blank" rel="noopener noreferrer">Información de educación tecnológica industrial (DGETI)</a></li>
+              <li><a href="https://www.facebook.com/CBTIS258NL/" target="_blank" rel="noopener noreferrer">Avisos y convocatorias en Facebook</a></li>
+              <li><a href="https://dgeti.sems.gob.mx/" target="_blank" rel="noopener noreferrer">Portal de la DGETI</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="info-comunidad-grid">
+          <article class="info-comunidad" id="actividades-academicas"><i class="fa-solid fa-book-open"></i><h3>Actividades académicas</h3><p>Espacios para reforzar lo aprendido en clase, compartir conocimientos y desarrollar habilidades relacionadas con las carreras técnicas.</p><ul><li>Concursos de conocimientos y proyectos escolares.</li><li>Exposiciones, ferias de ciencias y tecnología.</li><li>Asesorías, tutorías y actividades de lectura o matemáticas, cuando se ofrezcan.</li><li>Presentación de prototipos y proyectos interdisciplinarios.</li></ul><p><strong>Para participar:</strong> pregunta por convocatorias, fechas, criterios de inscripción y asesor docente. Las actividades concretas se anuncian por periodo.</p></article>
+          <article class="info-comunidad" id="actividades-culturales"><i class="fa-solid fa-masks-theater"></i><h3>Actividades culturales</h3><p>Promueven la expresión artística, la identidad cultural y la convivencia entre estudiantes.</p><ul><li>Danza, música, canto, teatro y expresión escénica, según la oferta vigente.</li><li>Eventos cívicos, muestras artísticas y celebraciones escolares.</li><li>Concursos, exposiciones y actividades de promoción de la lectura.</li></ul><p><strong>Para participar:</strong> consulta qué talleres o grupos están activos, sus horarios, materiales requeridos y si hay audiciones o cupo limitado.</p></article>
+          <article class="info-comunidad" id="actividades-deportivas"><i class="fa-solid fa-futbol"></i><h3>Actividades deportivas</h3><p>Favorecen la actividad física, el bienestar, la disciplina y el trabajo en equipo.</p><ul><li>Entrenamientos y torneos internos o interplanteles, según disponibilidad.</li><li>Deportes de conjunto e individuales conforme a los equipos activos.</li><li>Actividades de activación física y hábitos saludables.</li></ul><p><strong>Para participar:</strong> pregunta por disciplinas disponibles, horarios, requisitos de uniforme, valoración física si aplica y fechas de selección.</p></article>
+          <article class="info-comunidad" id="orientacion"><i class="fa-solid fa-comments"></i><h3>Orientación educativa</h3><p>Apoya al alumnado en su trayectoria escolar y en la identificación de opciones para atender dificultades académicas, personales o de convivencia.</p><ul><li>Hábitos de estudio, organización del tiempo y seguimiento escolar.</li><li>Orientación vocacional y decisiones sobre continuidad educativa.</li><li>Canalización ante situaciones emocionales, de convivencia o riesgo.</li><li>Información sobre tutorías, asistencia y estrategias para prevenir el abandono escolar.</li></ul><p>La atención y confidencialidad deben gestionarse directamente con el área responsable del plantel. Si existe una emergencia o peligro inmediato, solicita ayuda a un adulto de confianza o a los servicios de emergencia.</p><a href="https://www.gob.mx/sep" target="_blank" rel="noopener noreferrer">Portal de la SEP <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article>
+          <article class="info-comunidad" id="paec-info"><i class="fa-solid fa-seedling"></i><h3>PAEC: Programa Aula, Escuela y Comunidad</h3><p>Es una estrategia de trabajo colaborativo que conecta aprendizajes del aula con necesidades y oportunidades reales de la comunidad. Los proyectos se diseñan con participación de estudiantes, docentes, escuela y comunidad.</p><ul><li>Identificar una necesidad local y definir el objetivo del proyecto.</li><li>Relacionar contenidos académicos y competencias técnicas con una acción comunitaria.</li><li>Organizar actividades, responsabilidades, calendario y recursos.</li><li>Documentar resultados y reflexionar sobre el impacto del proyecto.</li></ul><p>Los proyectos específicos del CBTis 258, responsables y fechas deben confirmarse en el plantel; no se publican aquí actividades no verificadas.</p><a href="https://cosac.sems.gob.mx/Materiales/web/" target="_blank" rel="noopener noreferrer">Materiales oficiales de la SEMS para el currículum ampliado <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article>
+          <article class="info-comunidad" id="dual-info"><i class="fa-solid fa-handshake"></i><h3>Educación dual</h3><p>La educación dual combina la formación escolar con aprendizaje en una empresa o institución participante, de acuerdo con un plan formativo relacionado con la carrera técnica.</p><ul><li>Permite desarrollar competencias profesionales en un entorno real de trabajo.</li><li>La formación se organiza mediante acuerdos entre plantel y espacio laboral.</li><li>El estudiante recibe seguimiento de personal académico y de la persona instructora en la empresa.</li><li>La participación depende de la oferta de la carrera, convenios, espacios disponibles y criterios vigentes.</li></ul><p><strong>Antes de solicitar ingreso:</strong> pregunta a Vinculación si tu carrera y semestre participan, qué promedio o documentación se requiere, cómo se organiza el horario y qué apoyos o seguros aplican. No se garantiza que exista convocatoria abierta en este momento.</p><a href="https://cosac.sems.gob.mx/dual.php" target="_blank" rel="noopener noreferrer">Información oficial de Educación Dual (SEMS) <i class="fa-solid fa-arrow-up-right-from-square"></i></a> <a href="https://modelo.formaciondual.sems.gob.mx/?lang=es" target="_blank" rel="noopener noreferrer">Plataforma académica de Educación Dual <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article>
+        </div>
+      </div>
+    </section>
     <section class="seccion alumnos" id="alumnos">
       <div class="contenedor">
         <div class="encabezado">
@@ -366,14 +373,14 @@
           <article class="alumno" id="servicio-social">
             <i class="fa-solid fa-handshake-angle"></i>
             <h3>Servicio social</h3>
-            <p>Solicita requisitos, formatos, lugares autorizados y fechas de liberación.</p>
-            <a href="#contacto">Pedir información <i class="fa-solid fa-arrow-right"></i></a>
+            <p>El servicio social permite aplicar conocimientos y colaborar en actividades de beneficio social en una institución o programa autorizado, conforme a las reglas aplicables al plantel.</p><ul><li>Solicita los requisitos y verifica en qué semestre puedes iniciar.</li><li>Confirma si debes registrar el lugar o programa antes de comenzar.</li><li>Pregunta por carta de aceptación, reportes periódicos, horas requeridas y carta de liberación.</li><li>Conserva copias de formatos y comprobantes.</li></ul><p><strong>Importante:</strong> no empieces hasta que el área responsable valide el lugar y los documentos.</p>
+            <a href="https://dgeti.sems.gob.mx/" target="_blank" rel="noopener noreferrer">Portal general DGETI <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </article>
           <article class="alumno" id="servicio-profesional">
             <i class="fa-solid fa-briefcase"></i>
-            <h3>Servicio profesional</h3>
-            <p>Consulta convenios y documentos necesarios para tus prácticas.</p>
-            <a href="#contacto">Pedir información <i class="fa-solid fa-arrow-right"></i></a>
+            <h3>Prácticas y vinculación</h3>
+            <p>Las prácticas permiten acercarse a procesos y entornos relacionados con la formación técnica. La modalidad y los requisitos dependen de la carrera, el plan de estudios y los convenios disponibles.</p><ul><li>Pregunta si tu carrera requiere prácticas y en qué periodo.</li><li>Confirma empresas o instituciones autorizadas y si se necesita convenio.</li><li>Consulta seguro, horario, supervisor, carta de presentación y evaluación.</li><li>Entrega reportes y documentación en los plazos que indique Vinculación.</li></ul><p>Confirma si tu programa corresponde a prácticas profesionales o a formación dual: no son necesariamente el mismo trámite.</p>
+            <a href="https://cosac.sems.gob.mx/dual.php" target="_blank" rel="noopener noreferrer">Información de vinculación y formación dual <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </article>
           <article class="alumno" id="titulacion">
             <i class="fa-solid fa-file-signature"></i>
@@ -390,7 +397,6 @@
         </div>
       </div>
     </section>
-    <!-- CONTACTO -->
     <section class="seccion contacto" id="contacto">
       <div class="contenedor">
         <div class="encabezado">
@@ -434,7 +440,6 @@
       </div>
     </section>
   </main>
-  <!-- PIE DE PÁGINA -->
   <footer>
     <div class="contenedor footer-grid">
       <div class="footer-contacto">
@@ -447,7 +452,7 @@
           <i class="fa-solid fa-location-dot"></i>
           <span>Plinio D. Ordóñez 801, Col. Hacienda del Topo, General Escobedo, Nuevo León, C.P. 66072.</span>
         </a>
-        <div class="redes">
+        <div class="redes" id="redes-sociales">
           <a href="https://www.facebook.com/CBTIS258NL/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
           <a href="https://www.instagram.com/cbtis258/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a>
         </div>
@@ -478,5 +483,129 @@
       <p class="disclaimer">Página informativa de muestra. Confirma los trámites, convocatorias y oferta educativa con el plantel.</p>
     </div>
   </footer>
+  <div class="modal-modulos" id="modal-modulos" hidden>
+    <div class="modal-modulos-fondo" data-cerrar-modulos></div>
+    <section class="modal-modulos-contenido" role="dialog" aria-modal="true" aria-labelledby="modal-modulos-titulo" tabindex="-1">
+      <button class="modal-modulos-cerrar" type="button" aria-label="Cerrar módulos" data-cerrar-modulos><i class="fa-solid fa-xmark"></i></button>
+      <p class="eyebrow">Formación profesional</p>
+      <h2 id="modal-modulos-titulo">Módulos de la materia</h2>
+      <p class="modal-modulos-descripcion" id="modal-modulos-descripcion">Selecciona una carrera para consultar sus módulos.</p>
+      <div class="modal-modulos-lista" id="modal-modulos-lista"></div>
+      <p class="modal-modulos-nota"><i class="fa-solid fa-circle-info"></i> Los módulos que se muestran como guía deben verificarse con el plan de estudios oficial vigente del plantel.</p>
+    </section>
+  </div>
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const menu = document.getElementById('menu');
+    if (menuBtn && menu) {
+      menuBtn.addEventListener('click', () => {
+        const abierto = menu.classList.toggle('menu-abierto');
+        menuBtn.setAttribute('aria-expanded', String(abierto));
+        menuBtn.setAttribute('aria-label', abierto ? 'Cerrar menú' : 'Abrir menú');
+        menuBtn.innerHTML = abierto
+          ? '<i class="fa-solid fa-xmark"></i>'
+          : '<i class="fa-solid fa-bars"></i>';
+      });
+      menu.querySelectorAll('a').forEach(enlace => enlace.addEventListener('click', () => {
+        menu.classList.remove('menu-abierto');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        menuBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
+      }));
+    }
+    document.querySelectorAll('[data-plan-toggle]').forEach(boton => {
+      boton.addEventListener('click', () => {
+        const panel = document.getElementById(boton.getAttribute('aria-controls'));
+        const abierto = boton.getAttribute('aria-expanded') === 'true';
+        boton.setAttribute('aria-expanded', String(!abierto));
+        panel.hidden = abierto;
+        boton.innerHTML = abierto
+          ? 'Plan de estudios <i class="fa-solid fa-chevron-down"></i>'
+          : 'Ocultar plan <i class="fa-solid fa-chevron-up"></i>';
+      });
+    });
+    const datosModulos = {
+      'Programación': [
+        ['Módulo 01', 'Programación estructurada', 'Diseña algoritmos y desarrolla programas mediante estructuras de control y datos.'],
+        ['Módulo 02', 'Metodologías de software', 'Identifica necesidades y organiza las etapas para desarrollar soluciones de software.'],
+        ['Módulo 03', 'Programación orientada a objetos', 'Construye programas mediante clases, objetos y reutilización de código.'],
+        ['Módulo 04', 'Aplicaciones web', 'Desarrolla sitios y aplicaciones web integrando estructura, presentación y funcionalidad.'],
+        ['Módulo 05', 'Aplicaciones móviles', 'Diseña aplicaciones para dispositivos móviles y realiza pruebas de funcionamiento.']
+      ],
+      'Contabilidad': [
+        ['Módulo 01', 'Registro de operaciones contables', 'Registra operaciones económicas y organiza la documentación contable.'],
+        ['Módulo 02', 'Información financiera', 'Elabora registros y reportes básicos para interpretar la situación financiera.'],
+        ['Módulo 03', 'Costos y presupuestos', 'Clasifica costos y apoya la elaboración de presupuestos.'],
+        ['Módulo 04', 'Obligaciones fiscales', 'Reconoce documentación y procesos relacionados con las obligaciones fiscales.'],
+        ['Módulo 05', 'Gestión administrativa', 'Organiza información contable y administrativa con herramientas digitales.']
+      ],
+      'Mecánica': [
+        ['Módulo 01', 'Dibujo y diseño técnico', 'Interpreta planos, medidas y especificaciones técnicas.'],
+        ['Módulo 02', 'Procesos de manufactura', 'Reconoce materiales, herramientas y procesos de fabricación.'],
+        ['Módulo 03', 'Máquinas y herramientas', 'Aplica procedimientos básicos de operación y mecanizado.'],
+        ['Módulo 04', 'Mantenimiento industrial', 'Identifica fallas y aplica rutinas de mantenimiento preventivo.'],
+        ['Módulo 05', 'Seguridad industrial', 'Aplica prácticas de seguridad y prevención de riesgos en el taller.']
+      ],
+      'Preparación de alimentos y bebidas': [
+        ['Módulo 01', 'Higiene y manejo de alimentos', 'Aplica prácticas de limpieza, inocuidad y conservación.'],
+        ['Módulo 02', 'Técnicas culinarias', 'Utiliza utensilios y técnicas básicas de preparación.'],
+        ['Módulo 03', 'Preparación de platillos', 'Organiza ingredientes y elabora preparaciones siguiendo recetas.'],
+        ['Módulo 04', 'Bebidas y servicio', 'Prepara bebidas y aplica procedimientos de atención al comensal.'],
+        ['Módulo 05', 'Presentación y costos', 'Presenta productos y calcula costos básicos de preparación.']
+      ],
+      'Servicios de hospedaje': [
+        ['Módulo 01', 'Recepción y reservaciones', 'Atiende solicitudes y registra reservaciones de huéspedes.'],
+        ['Módulo 02', 'Atención al huésped', 'Aplica técnicas de comunicación y servicio al cliente.'],
+        ['Módulo 03', 'Operación de habitaciones', 'Reconoce procedimientos de limpieza, orden y supervisión.'],
+        ['Módulo 04', 'Administración hotelera', 'Identifica procesos y registros de operación de un establecimiento.'],
+        ['Módulo 05', 'Calidad y seguridad', 'Aplica protocolos de calidad, higiene y seguridad.']
+      ],
+      'Logística': [
+        ['Módulo 01', 'Recepción de mercancías', 'Verifica entradas, documentos y condiciones de los productos.'],
+        ['Módulo 02', 'Control de inventarios', 'Registra existencias y apoya el control de almacén.'],
+        ['Módulo 03', 'Almacenamiento', 'Organiza mercancías y aplica procedimientos de resguardo.'],
+        ['Módulo 04', 'Distribución y transporte', 'Apoya la planeación de rutas y movimientos de productos.'],
+        ['Módulo 05', 'Cadena de suministro', 'Identifica procesos de abastecimiento, seguimiento y entrega.']
+      ],
+      'Inteligencia Artificial': [
+        ['Módulo 01', 'Fundamentos de programación', 'Desarrolla lógica y programas para resolver problemas.'],
+        ['Módulo 02', 'Datos y bases de datos', 'Organiza, consulta y prepara conjuntos de datos.'],
+        ['Módulo 03', 'Fundamentos de inteligencia artificial', 'Reconoce conceptos, usos y límites de los sistemas inteligentes.'],
+        ['Módulo 04', 'Modelos y aprendizaje automático', 'Explora cómo se entrenan y evalúan modelos con datos.'],
+        ['Módulo 05', 'Aplicaciones responsables de IA', 'Integra herramientas de IA considerando privacidad, sesgos y seguridad.']
+      ]
+    };
+    const modalModulos = document.getElementById('modal-modulos');
+    const modalTitulo = document.getElementById('modal-modulos-titulo');
+    const modalLista = document.getElementById('modal-modulos-lista');
+    const modalDescripcion = document.getElementById('modal-modulos-descripcion');
+    let botonAnteriorModulos = null;
+    function abrirModulos(materia, boton) {
+      botonAnteriorModulos = boton;
+      modalTitulo.textContent = `Módulos de ${materia}`;
+      modalDescripcion.textContent = materia === 'Programación'
+        ? 'Consulta los cinco módulos de formación técnica de Programación.'
+        : `Estos cinco módulos son una guía temática de ${materia}; los nombres oficiales pueden variar según el plan vigente.`;
+      modalLista.replaceChildren();
+      (datosModulos[materia] || []).forEach(([numero, titulo, descripcion]) => {
+        const articulo = document.createElement('article');
+        articulo.className = 'modulo modal-modulo';
+        const etiqueta = document.createElement('span'); etiqueta.className = 'modulo-numero'; etiqueta.textContent = numero;
+        const encabezado = document.createElement('h3'); encabezado.textContent = titulo;
+        const texto = document.createElement('p'); texto.textContent = descripcion;
+        articulo.append(etiqueta, encabezado, texto); modalLista.append(articulo);
+      });
+      modalModulos.hidden = false;
+      document.body.classList.add('modal-abierto');
+      modalModulos.querySelector('.modal-modulos-contenido').focus();
+    }
+    function cerrarModulos() {
+      modalModulos.hidden = true;
+      document.body.classList.remove('modal-abierto');
+      if (botonAnteriorModulos) botonAnteriorModulos.focus();
+    }
+    document.querySelectorAll('[data-materia]').forEach(boton => boton.addEventListener('click', () => abrirModulos(boton.dataset.materia, boton)));
+    modalModulos.querySelectorAll('[data-cerrar-modulos]').forEach(boton => boton.addEventListener('click', cerrarModulos));
+    document.addEventListener('keydown', evento => { if (evento.key === 'Escape' && !modalModulos.hidden) cerrarModulos(); });
+  </script>
 </body>
 </html>
